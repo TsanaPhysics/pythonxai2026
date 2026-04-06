@@ -1,0 +1,11 @@
+jupyterlab
+pandas
+numpy
+scikit-learn
+opencv-python
+matplotlib
+seaborn
+pgzero
+pygame
+tensorflow
+requests
