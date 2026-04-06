@@ -38,6 +38,25 @@
         <div style="width: 80px; height: 4px; background: var(--primary); margin: 20px auto;"></div>
     </div>
 
+    <!-- Beginner Guide Call-to-Action -->
+    <div class="card" style="margin-bottom: 60px; padding: 0; background: linear-gradient(135deg, var(--primary), #ffb74d); border: none; overflow: hidden; display: flex; align-items: center; min-height: 200px;">
+        <div style="padding: 40px; flex: 1; color: white;">
+            <h2 style="margin: 0 0 10px 0; color: white; display: flex; align-items: center; gap: 10px;">
+                🚀 เริ่มต้นที่นี่: คู่มือฝึกหัดสำหรับมือใหม่
+            </h2>
+            <p style="font-size: 1.1rem; opacity: 0.95; margin-bottom: 25px;">
+                ไม่มีพื้นฐานการเขียนโปรแกรม? ไม่ต้องกังวล! เราเตรียมเนื้อหาเริ่มต้นแบบเร่งด่วนสำหรับการรันโน๊ตบุ๊ค 
+                การติดตั้งสภาพแวดล้อม และเทคนิคการใช้ AI ช่วยสอนไว้ให้คุณแล้ว
+            </p>
+            <a href="beginner_guide.php" class="btn" style="background: white; color: var(--primary); padding: 15px 40px; font-size: 1.1rem;">
+                เปิดอ่านคู่มือเริ่มต้น &rarr;
+            </a>
+        </div>
+        <div style="flex: 0 0 250px; background: rgba(255,255,255,0.1); height: 100%; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(5px);">
+            <img src="https://img.icons8.com/color/144/000000/user-manual.png" style="width: 140px; height: 140px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));" alt="Manual Icon">
+        </div>
+    </div>
+
     <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
         <!-- Module 1 -->
         <div class="card">

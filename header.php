@@ -25,6 +25,7 @@
                         <a href="module6.php" style="display:block; padding:10px 20px;">บทที่ 6</a>
                     </div>
                 </div>
+                <a href="beginner_guide.php" id="nav-guide">เริ่มต้นเรียนรู้</a>
                 <a href="resources.php" id="nav-resources">ทรัพยากร</a>
                 <a href="code_explorer.php" id="nav-sandbox">Sandbox</a>
             </div>
