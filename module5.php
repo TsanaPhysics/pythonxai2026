@@ -128,7 +128,7 @@
                                 <div style="display: flex; gap: 10px; align-items: center;">
                                     <span style="font-size: 0.9rem; font-weight: 600; color: #555;">🚀 Launch:</span>
                                     <a href="https://colab.research.google.com/github/TsanaPhysics/pythonxai2026/blob/main/workshop_code/<?php echo $rel_dir; ?>/<?php echo $f; ?>" target="_blank" class="btn-sm" style="background: #f39c12; color: white; text-decoration: none; padding: 5px 12px; border-radius: 4px; font-size: 0.8rem;">Google Colab</a>
-                                    <a href="https://jupyter.org/try-jupyter/lab/github/TsanaPhysics/pythonxai2026/blob/main/workshop_code/<?php echo $rel_dir; ?>/<?php echo $f; ?>" target="_blank" class="btn-sm" style="background: #2ecc71; color: white; text-decoration: none; padding: 5px 12px; border-radius: 4px; font-size: 0.8rem;">JupyterLab</a>
+                                    <a href="https://mybinder.org/v2/gh/TsanaPhysics/pythonxai2026/main?labpath=workshop_code/<?php echo $rel_dir; ?>/<?php echo $f; ?>" target="_blank" class="btn-sm" style="background: #2ecc71; color: white; text-decoration: none; padding: 5px 12px; border-radius: 4px; font-size: 0.8rem;">JupyterLab</a>
                                 </div>
                                 <a href="workshop_code/<?php echo $rel_dir; ?>/<?php echo $f; ?>" download style="color: var(--primary-dark); font-size: 0.85rem; font-weight: 700;">[ ดาวน์โหลด .ipynb ]</a>
                             </div>
