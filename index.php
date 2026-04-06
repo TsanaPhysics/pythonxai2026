@@ -194,6 +194,22 @@
             </div>
         </div>
     </div>
+    <!-- Join the Community Section -->
+    <div class="community-section">
+        <div class="community-text">
+            <h4>STAY CONNECTED</h4>
+            <h2>เข้าร่วมกลุ่ม<br>LINE ✨</h2>
+            <p>เพื่อติดตามข่าวสารล่าสุด ปรึกษาคำถามด้าน AI และแลกเปลี่ยนไอเดียกับเพื่อนๆ นักนวัตกรรมในเครือข่าย Python x AI ได้ทันทีครับ</p>
+            <a href="https://line.me/ti/g2/placeholder" target="_blank" class="btn" style="background: #00c300; display: inline-flex; align-items: center; gap: 10px; padding: 15px 40px;"> 
+                <img src="https://img.icons8.com/color/48/000000/line-me.png" style="width: 24px; height: 24px;" alt="LINE Icon">
+                Add Line Group
+            </a>
+        </div>
+        <div class="qr-card">
+            <img src="assets/images/line_qr.png" alt="LINE Group QR Code">
+            <span>SCAN TO JOIN</span>
+        </div>
+    </div>
 </main>
 
 <?php include('footer.php'); ?>
