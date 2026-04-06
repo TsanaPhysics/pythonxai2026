@@ -128,9 +128,23 @@ nav {
 
 .hero-text h1 {
     font-size: 5rem;
-    line-height: 1.1;
+    line-height: 1;
     margin-bottom: 30px;
     font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+    text-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.hero-text h1 span {
+    display: block;
+    background: linear-gradient(90deg, var(--primary) 0%, #ffb74d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.2rem;
+    filter: drop-shadow(0 5px 15px rgba(255, 107, 0, 0.4));
+    margin-top: 10px;
 }
 
 .hero-text p {
