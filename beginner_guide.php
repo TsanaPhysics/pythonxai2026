@@ -77,29 +77,38 @@
     #guide-content img { max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow); }
 </style>
 
-<!-- Load Marked.js for Markdown rendering -->
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<!-- Load Marked.js (UMD version for global variable support) -->
+<script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/lib/marked.umd.js"></script>
 <script>
     async function loadGuide() {
+        const contentDiv = document.getElementById('guide-content');
         try {
+            // Check if marked is available
+            if (typeof marked === 'undefined') {
+                throw new Error('ไม่สามารถโหลดตัวอ่านไฟล์ Markdown ได้ (marked is not defined)');
+            }
+
             const response = await fetch('workshop_manual/BEGINNER_GUIDE.md');
-            if (!response.ok) throw new Error('Failed to load guide content');
+            if (!response.ok) throw new Error('ไม่สามารถโหลดไฟล์เนื้อหาได้ (404 Not Found)');
             const markdown = await response.text();
             
-            // Render markdown to HTML
-            document.getElementById('guide-content').innerHTML = marked.parse(markdown);
+            // Render markdown to HTML using the modern UMD pattern
+            // Note: in version 4+, some builds use marked.parse()
+            const htmlContent = marked.parse(markdown);
+            contentDiv.innerHTML = htmlContent;
         } catch (error) {
-            document.getElementById('guide-content').innerHTML = `
+            contentDiv.innerHTML = `
                 <div style="text-align:center; color:red; padding: 50px;">
-                    <h2>อุ๊บส์! เกิดข้อผิดพลาด</h2>
-                    <p>${error.message}</p>
+                    <h2 style="color: #e74c3c;">อุ๊บส์! เกิดข้อผิดพลาด</h2>
+                    <p style="background: #fff0f0; padding: 10px; border-radius: 8px; font-family: monospace;">${error.message}</p>
                     <a href="index.php" class="btn" style="margin-top:20px;">กลับสู่หน้าหลัก</a>
                 </div>
             `;
         }
     }
 
-    window.onload = loadGuide;
+    // Use DOMContentLoaded for faster and more reliable trigger
+    document.addEventListener('DOMContentLoaded', loadGuide);
 </script>
 
 <?php include('footer.php'); ?>
