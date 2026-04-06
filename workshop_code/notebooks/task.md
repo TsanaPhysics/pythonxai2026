@@ -1,0 +1,13 @@
+# Notebook Synchronization Tasks
+- [x] Chapter 1: Foundations
+    - [x] Sync ex01-exXX scripts to ch01_foundations_master.ipynb
+- [x] Chapter 2: ML Intelligence
+    - [x] Sync ex01-exXX scripts to ch02_ml_intelligence_master.ipynb
+- [x] Chapter 3: Deep Learning
+    - [x] Sync ex01-exXX scripts to ch03_deep_learning_master.ipynb
+- [x] Chapter 4: CV & NLP
+    - [x] Sync ex01-exXX scripts to ch04_cv_nlp_master.ipynb
+- [x] Chapter 5: Pygame Zero
+    - [x] Sync ex01-exXX scripts to ch05_pygame_zero_master.ipynb (using %%writefile magic)
+- [x] Final Verification
+    - [x] Verify all 5 master notebooks are valid JSON and contains all code

@@ -1,0 +1,12 @@
+# iPad/Touch Support Tasks
+- [ ] Create assets
+    - [ ] Generate virtual button sprite
+    - [ ] Transparentize and save as 'images/btn.png'
+- [ ] Update Code
+    - [ ] Define virtual button Actors in 'boilerplate_pgz.py'
+    - [ ] Update 'on_mouse_down'/'on_mouse_up' for directional flags
+    - [ ] Update 'update()' to check flags
+    - [ ] Draw buttons in 'draw()'
+- [ ] Verification
+    - [ ] Restart script
+    - [ ] Verify mouse-clicks move the robot
