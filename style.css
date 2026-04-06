@@ -445,6 +445,72 @@ footer {
     letter-spacing: 1px;
 }
 
+/* --- Floating LINE QR --- */
+.floating-qr {
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    transition: var(--transition);
+}
+
+.qr-toggle {
+    background: #00c300;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(0, 195, 0, 0.4);
+    cursor: pointer;
+    border: 3px solid white;
+    transition: var(--transition);
+}
+
+.qr-toggle img {
+    width: 32px;
+    height: 32px;
+}
+
+.qr-expand {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    transform: scale(0);
+    transform-origin: top right;
+    transition: var(--transition);
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.qr-expand img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.qr-expand span {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: var(--secondary);
+}
+
+.floating-qr:hover .qr-expand {
+    transform: scale(1);
+}
+
+.floating-qr:hover .qr-toggle {
+    transform: rotate(15deg) scale(1.1);
+}
+
 /* --- Responsive --- */
 @media (max-width: 900px) {
     .community-section {
@@ -453,9 +519,7 @@ footer {
         padding: 40px 20px;
     }
     .community-text h2 { font-size: 2.2rem; }
-}
-
-@media (max-width: 768px) {
-    .nav-links { display: none; }
-    .page-header h1 { font-size: 2.2rem; }
+    .floating-qr { right: 15px; top: 120px; }
+    .qr-toggle { width: 50px; height: 50px; }
+    .qr-expand { display: none; } /* Hide on small mobile to avoid blocking content */
 }

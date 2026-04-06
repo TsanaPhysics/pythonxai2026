@@ -21,6 +21,17 @@
 </header>
 
 <main class="container" style="margin-top: 60px;">
+    <!-- Floating Quick Access QR -->
+    <div class="floating-qr">
+        <div class="qr-expand">
+            <img src="assets/images/line_qr.png" alt="LINE Group QR Code">
+            <span>Scan to Join Group</span>
+        </div>
+        <div class="qr-toggle" onclick="window.open('https://line.me/ti/g2/placeholder', '_blank')">
+            <img src="https://img.icons8.com/color/48/000000/line-me.png" alt="Line Icon">
+        </div>
+    </div>
+
     <div style="text-align:center; margin-bottom: 60px;">
         <h2 style="font-size: 2.5rem; color: var(--secondary);">เส้นทางสู่การเป็นนักวิทยาศาสตร์ AI</h2>
         <p style="color: var(--text-light); margin-top: 10px;">เลือกเริ่มต้นการเดินทางของคุณในรูปแบบที่เหมาะสม</p>
