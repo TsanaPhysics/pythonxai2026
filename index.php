@@ -6,7 +6,7 @@
         <div class="hero-grid">
             <div class="hero-text">
                 <h4>WELCOME TO NEXT-GEN</h4>
-                <h1>Python x AI<br><span>2026</span></h1>
+                <h1>Python xAI<br><span>Next-Gen Scientist</span></h1>
                 <p>ก้าวข้ามขีดจำกัดเดิมๆ เปลี่ยนจากการ "เขียนโค้ด" ไปสู่การ "กำกับนวัตกรรม" เพื่อการเกษตรและสิ่งแวดล้อมที่ยั่งยืน</p>
                 <div class="hero-btns" style="display: flex; gap: 20px;">
                     <a href="workshop_manual/complete_course_book_2026.pdf" class="btn" target="_blank">ดาวน์โหลดคู่มือฉบับเต็ม</a>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="hero-art">
-                <img src="assets/images/hero_premium_2026.png" alt="Python x AI 2026 Robot Scientist">
+                <img src="assets/images/hero_premium_2026.png" alt="Python xAI Next-Gen Scientist">
             </div>
         </div>
     </div>

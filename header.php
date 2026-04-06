@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python x AI 2026 | AI-Next Scientist</title>
+    <title>Python xAI | Next-Gen Scientist</title>
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;700&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
@@ -11,7 +11,7 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="index.php" class="nav-logo">Python x AI <span>2026</span></a>
+            <a href="index.php" class="nav-logo">Python xAI <span>Scientist</span></a>
             <div class="nav-links">
                 <a href="index.php" id="nav-home">หน้าหลัก</a>
                 <div class="nav-dropdown" style="position:relative; display:inline-block;">
