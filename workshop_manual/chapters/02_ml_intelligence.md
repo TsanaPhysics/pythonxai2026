@@ -1,4 +1,6 @@
-# 🔮 บทที่ 2: พลังแห่งการพยากรณ์ (ML & xAI)
+# 🧠 บทที่ 2: พลังแห่งการเรียนรู้ (ML Intelligence)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TsanaPhysics/pythonxai2026/blob/main/workshop_code/notebooks/ch02_ml_intelligence/chapter2_ml_lab.ipynb)
+
 **ระยะเวลา**: ชั่วโมงที่ 4 - 6 (3 ชั่วโมง)
 **หัวใจสำคัญ**: การใช้ Machine Learning ทายอนาคต และอธิบายเหตุผลด้วย xAI
 

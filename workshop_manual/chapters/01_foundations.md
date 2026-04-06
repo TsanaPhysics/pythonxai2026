@@ -1,131 +1,56 @@
 # 🚀 บทที่ 1: AI Co-Pilot Mastery
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TsanaPhysics/pythonxai2026/blob/main/workshop_code/notebooks/ch01_foundations/chapter1_lab.ipynb)
+
 **ระยะเวลา**: ชั่วโมงที่ 1 - 3 (3 ชั่วโมง)
 **หัวใจสำคัญ**: เปลี่ยนจากการ "เขียนโค้ด" ไปสู่การ "กำกับ AI" เพื่อสร้างตรรกะนวัตกรรม
 
 ---
 
-## 🕒 ชั่วโมงที่ 1: ก้าวแรกสู่ Cloud Lab & Hello Agri
+## 🕒 ชั่วโมงที่ 1: ก้าวแรกสู่ Cloud Lab
 ทำความรู้จักกับ JupyterLab ห้องทดลองที่ทรงพลังที่สุดบนระบบ Cloud
 
-### 🖥️ 1.1 Copy-Paste Lab: ตรวจสอบระบบ
+### 🖥️ Copy-Paste Lab: ตรวจสอบระบบ
+รันโค้ดชุดนี้เพื่อดูว่า JupyterLab ของคุณพร้อมทำงานหรือไม่
 ```python
 import sys
 print(f"Python Version: {sys.version}")
 print("Cloud Lab Initialized: Ready to Code!")
 ```
 
-### 🖥️ 1.2 Copy-Paste Lab: Hello Agri (Beginner)
-```python
-# ex01_hello.py
-print("ยินดีต้อนรับสู่ Python x AI 2026!")
-print("--- [Day 1: Start] ---")
-```
+### 🧩 Minecraft Spotlight: พิกัด 3 มิติ (X, Y, Z)
+ใน Minecraft โลกประกอบด้วยพิกัด **X (ซ้าย-ขวา)**, **Y (ความสูง)** และ **Z (ลึก)** 
+- การขยับ Agent ในเกมด้วย Python คือการเปลี่ยนค่า `pos(x, y, z)`
+- เช่นเดียวกับอาเรย์ที่เราจะเรียน: `farm[x][y]` คือการระบุตำแหน่งดินในฟาร์ม!
 
-### 🤖 1.3 Greeting Bot: ระบบทักทายนักวิทย์
-```python
-# ex02_greeting_bot.py
-name = input("ระบุชื่อรหัสนักวิทย์ของคุณ: ")
-print(f"ยินดีต้อนรับคุณ {name} เข้าสู่ปี 2026!")
-```
+### 🤖 AI Co-Pilot: เพื่อนคู่คิดคนใหม่ (Real-Time Debugging)
+ตั้งแต่วินาทีนี้ไป คุณจะไม่ต้องนั่งงมกับ Error คนเดียวอีกต่อไป! หากโค้ดรันไม่ได้ ให้ลอง Copy Error ไปถาม AI ด้วยประโยคนี้:
+> "ฉันเป็นนักเรียนที่กำลังเรียน Python ใน JupyterLab และเจอข้อผิดพลาดนี้: [แปะ Error]
+> ช่วยอธิบายว่ามันเกิดจากอะไร และแนะนำวิธีแก้โค้ดทีละขั้นตอนให้หน่อย"
 
 ---
 
-## 🕒 ชั่วโมงที่ 2: ตรรกะและตัวแปร (Variables & Math)
-การเก็บค่าและตัดสินใจเบื้องต้น
+## 🕒 ชั่วโมงที่ 2: ศิลปะการสั่งงาน AI (S.C.I.E.N.T.I.S.T. Prompting)
+เพื่อให้ AI ช่วยคุณสร้างนวัตกรรมที่แม่นยำ เราจะใช้สูตรการสั่งงานระดับโลกที่ครอบคลุมทุกมิติ:
 
-### 📊 1.4 Variables & Math: การคำนวณเซนเซอร์
-```python
-# ex02_vars_math.py
-temp = 32.5
-humidity = 65
-soil_moist = 45
-avg = (temp + humidity + soil_moist) / 3
-print(f"ค่าเฉลี่ยเซนเซอร์รวม: {avg:.2f}")
-```
-
-### 🔞 1.5 Input Bot (Age Check): การจำแนกประเภท
-```python
-# ex03_input_bot.py
-age = int(input("คุณอายุเท่าไหร่? "))
-if age < 15:
-    print("คุณคือ Junior Explorer 🌱")
-else:
-    print("คุณคือ Senior Innovator 🚀")
-```
-
-### 🚨 1.6 Agri Logic: การตัดสินใจในโรงเรือน
-```python
-# ex04_agri_logic.py
-temp = float(input("ระบุอุณหภูมิฟาร์ม (°C): "))
-if temp > 38:
-    print("🚨 อันตราย: เปิดระบบพ่นหมอก...")
-elif temp > 35:
-    print("⚠️ แจ้งเตือน: เปิดพัดลม...")
-else:
-    print("✅ สถานะ: อุณหภูมิปกติ")
-```
-
----
-
-## 🕒 ชั่วโมงที่ 3: ระบบคัดกรองข้อมูล (Data Filtering & Stats)
-เรียนรู้การทำงานกับข้อมูลหลายชุด (Lists) และการรวมตรรกะ
-
-### 📊 1.7 Loop Sensor Monitoring
-```python
-# ex05_loop_sensor.py
-moisture_levels = [45, 32, 55, 28, 40]
-for m in moisture_levels:
-    status = "ปกติ" if m >= 40 else "ต่ำเกินไป (ต้องรดน้ำ)"
-    print(f"จุดตรวจที่ระดับ {m}%: สถานะ {status}")
-```
-
-### 🌡️ 1.8 Statistics: การจัดการข้อมูลชุด
-```python
-# ex06_list_data.py
-temp_history = [32.5, 34.1, 38.2, 31.5, 35.0]
-max_temp = max(temp_history)
-print(f"🌡️ อุณหภูมิสูงสุด: {max_temp}°C")
-```
-
-### ⚙️ 1.9 Integrated Smart Fan Control
-```python
-# ex07_smart_fan.py
-def check_fan_status(temp, hum):
-    if temp > 35 or hum > 80: return "Level 3"
-    elif temp > 30: return "Level 1"
-    else: return "OFF"
-
-print(f"ระบบตัดสินใจ: {check_fan_status(36.5, 82.0)}")
-```
-
----
-
-## ✅ Checklist ท้ายบท
-- [ ] รันโค้ดใน JupyterLab สำเร็จครบ 9 Lab
-- [ ] เข้าใจการใช้ `if-else` และ `input()`
-- [ ] สามารถหาค่าสถิติเบื้องต้นจาก `Lists` ได้
-
----
-
-## 🎮 Minecraft Challenge
-ลองใช้ **Loop** สั่งให้ Agent เดินเก็บเกี่ยวพืชในรัศมี 10 บล็อกรอบตัว:
-```python
-for length in range(10):
-    agent.destroy(FORWARD) 
-    agent.move(FORWARD, 1)
-```
- | Nuance | ระบุรายละเอียดปลีกย่อย ("ขอคำอธิบายที่เด็ก ม.ต้น เข้าใจได้...") |
-| **T** | Target | ระบุกลุ่มเป้าหมายหรือวัตถุประสงค์ ("เพื่อใช้ในการพรีเซนต์โครงงาน...") |
+| อักษร | ความหมาย | รายละเอียดการสั่ง |
+| :--- | :--- | :--- |
+| **S** | Situation | บอกสถานะปัจจุบัน ("ฉันกำลังทำโปรเจกต์แยกโรคพืช...") |
+| **C** | Context | ให้ข้อมูลแวดล้อม ("โดยใช้ข้อมูลอุณหภูมิและความชื้น...") |
+| **I** | Input | ใส่ข้อมูลหรือโค้ดที่มี ("นี่คือโค้ดที่ฉันมี [แปะโค้ด]...") |
+| **E** | Expectation | บอกผลลัพธ์ที่อยากได้ ("ฉันอยากให้ AI ตรวจสอบว่าพืชเสี่ยงเป็นโรคไหม...") |
+| **N** | Nuance | ระบุรายละเอียดปลีกย่อย ("ขอคำอธิบายที่เด็ก ม.ต้น เข้าใจได้...") |
+| **T** | Target | ระบุเป้าหมายหรือวัตถุประสงค์ ("เพื่อใช้ในการพรีเซนต์โครงงาน...") |
 | **I** | Insight | ขอคำแนะนำเชิงลึก ("แนะนำแนวทางการพัฒนาต่อยอดให้ด้วย...") |
 | **S** | Style | กำหนดรูปแบบคำตอบ ("แสดงผลเป็นข้อๆ หรือเป็นตาราง...") |
 | **T** | Test | ให้ AI ช่วยตรวจสอบ ("ช่วยเขียน Test Case เพื่อเช็คโค้ดนี้ให้หน่อย...") |
 
 ---
+
 AI จะฉลาดได้ต้องมี "ตรรกะ" (Logic) เราจะสั่งให้คอมพิวเตอร์ "คิด" และ "ทำ" ตามเงื่อนไข
 
 ### 🕹️ Copy-Paste Lab: ภารกิจทักทาย (Junior/Senior)
 สร้างตัวแปรเพื่อเก็บข้อมูลและแสดงผลลัพธ์
-```python
+```ipynb
 # ระบบบันทึกชื่อนักนวัตกรรม
 name = input("ระบุชื่อรหัสนักวิทย์ของคุณ: ")
 print(f"ยินดีต้อนรับคุณ {name} เข้าสู่ปี 2026!")

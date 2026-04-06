@@ -1,4 +1,6 @@
-# 🧠 บทที่ 3: โครงข่ายประสาทเทียม (Deep Learning)
+# 🧬 บทที่ 3: เส้นประสาทดิจิทัล (Deep Learning 101)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TsanaPhysics/pythonxai2026/blob/main/workshop_code/notebooks/ch03_deep_learning/chapter3_dl_lab.ipynb)
+
 **ระยะเวลา**: ชั่วโมงที่ 7 - 8 (2 ชั่วโมง)
 **หัวใจสำคัญ**: เลียนแบบสมองมนุษย์ด้วย Neuron เพื่อการตัดสินใจที่ซับซ้อน
 

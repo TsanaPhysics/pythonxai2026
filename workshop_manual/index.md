@@ -6,11 +6,11 @@
 ## 📅 แผนการเรียนรู้ 12 ชั่วโมง
 
 ### วันที่ 1: รากฐานและการพยากรณ์ (Day 1: Foundations & Prediction)
-*   [**ชั่วโมงที่ 1-3: บทที่ 1 - รากฐานและตรรกะมหัศจรรย์**](chapters/01_foundations.md)
+*   [**ชั่วโมงที่ 1-3: บทที่ 1 - AI Co-Pilot Mastery**](chapters/01_foundations.md)
     *   การเตรียม Cloud Lab (JupyterLab)
     *   ตรรกะ Python: ตัวแปรและการตัดสินใจ (If-Else)
     *   ภารกิจ: บอททักทายและระบบคัดกรองข้อมูลฟาร์ม
-*   [**ชั่วโมงที่ 4-6: บทที่ 2 - พลังแห่งการพยากรณ์ (ML & xAI)**](chapters/02_ml_intelligence.md)
+*   [**ชั่วโมงที่ 4-6: บทที่ 2 - พลังแห่งการเรียนรู้ (ML Intelligence)**](chapters/02_ml_intelligence.md)
     *   จากข้อมูลสู่ความรู้: Machine Learning คืออะไร?
     *   การสอน AI ด้วยสถิติ (Random Forest)
     *   ภารกิจ: ทายผลผลิตและอธิบายเหตุผลด้วย xAI

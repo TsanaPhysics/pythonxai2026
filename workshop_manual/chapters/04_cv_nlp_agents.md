@@ -1,4 +1,6 @@
 # 👁️ บทที่ 4: ดวงตาอัจฉริยะและภาษา AI (CV & NLP)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TsanaPhysics/pythonxai2026/blob/main/workshop_code/notebooks/ch04_cv_nlp/chapter4_cv_nlp_lab.ipynb)
+
 **ระยะเวลา**: ชั่วโมงที่ 9 - 10 (2 ชั่วโมงเต็ม)
 **หัวใจสำคัญ**: ก้าวข้ามจาก "ข้อมูล" สู่ "การรับรู้" (Perception) ทั้งภาพและภาษา
 
