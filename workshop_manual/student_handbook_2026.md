@@ -248,7 +248,7 @@ h1.chapter {
 
 <div style="page-break-after: always;"></div>
 
-# 📘 คู่มือนักเรียน: Python x AI 2026 (ฉบับเจาะลึก 3 ระดับ)
+# 📘 คู่มือนักเรียน: Python xAI Next-Gen Scientist (ฉบับเจาะลึก 3 ระดับ)
 **Next-Gen Scientist Edition** - เส้นทางสู่การเป็นผู้สร้างนวัตกรรม AI เพื่อโลกที่ยั่งยืน
 
 ---

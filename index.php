@@ -7,7 +7,7 @@
             <div class="hero-text">
                 <h4>WELCOME TO NEXT-GEN</h4>
                 <h1>Python xAI<br><span>Next-Gen Scientist</span></h1>
-                <p>ก้าวข้ามขีดจำกัดเดิมๆ เปลี่ยนจากการ "เขียนโค้ด" ไปสู่การ "กำกับนวัตกรรม" เพื่อการเกษตรและสิ่งแวดล้อมที่ยั่งยืน</p>
+                <p>ก้าวข้ามขีดจำกัดเดิมๆ เปลี่ยนจากการ "Coding" ไปสู่การเป็น "Co-Creator" เพื่อการเกษตรดิจิทัลและสิ่งแวดล้อม</p>
                 <div class="hero-btns" style="display: flex; gap: 20px;">
                     <a href="workshop_manual/complete_course_book_2026.pdf" class="btn" target="_blank">ดาวน์โหลดคู่มือฉบับเต็ม</a>
                     <a href="resources.php" class="btn" style="background: rgba(255,255,255,0.1); border: 1px solid var(--glass-border); backdrop-filter: blur(5px);">ศูนย์ทรัพยากร</a>

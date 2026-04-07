@@ -25,8 +25,15 @@ text = text.replace('| **BONUS** | **Python in Metaverse** | **บทที่ 7
 # I'll just load 01_foundations.md and replace Chapter 1
 with open('workshop_manual/chapters/01_foundations.md', 'r', encoding='utf-8') as f:
     ch1_content = f.read()
-ch1_pattern = r'# 🚀 บทที่ 1: รากฐานและตรรกะมหัศจรรย์.*?(?=<div style="page-break-after: always;"></div>)'
-text = re.sub(ch1_pattern, ch1_content + "\n", text, flags=re.DOTALL)
+ch1_pattern = r'# 🚀 บทที่ 1: .*? Mastery.*?(?=<div style="page-break-after: always;"></div>)'
+# Also try a more generic one if that fails
+if not re.search(ch1_pattern, text, flags=re.DOTALL):
+    ch1_pattern = r'# 🚀 บทที่ 1: .*? Foundations.*?(?=<div style="page-break-after: always;"></div>)'
+    if not re.search(ch1_pattern, text, flags=re.DOTALL):
+        # Fallback to the very first chapter start
+        ch1_pattern = r'# 🚀 บทที่ 1:.*?(?=<div style="page-break-after: always;"></div>)'
+
+text = re.sub(ch1_pattern, ch1_content + "\n", text, flags=re.DOTALL, count=1)
 
 # 4. Integrate Minecraft to Chapter 5
 with open('workshop_manual/chapters/05_pygame_zero_sim.md', 'r', encoding='utf-8') as f:
