@@ -8,9 +8,15 @@
                 <h4>WELCOME TO NEXT-GEN</h4>
                 <h1>Python xAI<br><span>Next-Gen Scientist</span></h1>
                 <p>ก้าวข้ามขีดจำกัดเดิมๆ เปลี่ยนจากการ <strong style="color: var(--primary);">"Coding"</strong> ไปสู่การเป็น <strong style="color: var(--primary);">"Co-Creator"</strong> เพื่อการเกษตรดิจิทัลและสิ่งแวดล้อม</p>
-                <div class="hero-btns" style="display: flex; gap: 20px;">
-                    <a href="workshop_manual/complete_course_book_2026.pdf" class="btn" target="_blank">ดาวน์โหลดคู่มือฉบับเต็ม</a>
-                    <a href="resources.php" class="btn" style="background: rgba(255,255,255,0.1); border: 1px solid var(--glass-border); backdrop-filter: blur(5px);">ศูนย์ทรัพยากร</a>
+                <div class="hero-btns" style="display: flex; align-items: center; gap: 20px; margin-top: 30px;">
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <a href="workshop_manual/complete_course_book_2026.pdf" class="btn" target="_blank">ดาวน์โหลดคู่มือฉบับเต็ม</a>
+                        <a href="resources.php" class="btn" style="background: rgba(255,255,255,0.1); border: 1px solid var(--glass-border); backdrop-filter: blur(5px);">ศูนย์ทรัพยากร</a>
+                    </div>
+                    <div class="portal-qr-card" style="background: white; padding: 10px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); display: flex; flex-direction: column; align-items: center; gap: 5px;">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://scicenter.rbru.ac.th/pythonxai2026/" alt="Portal QR Code" style="width: 80px; height: 80px;">
+                        <span style="color: #333; font-size: 0.75rem; font-weight: bold; font-family: 'Outfit', sans-serif;">PORTAL ACCESS</span>
+                    </div>
                 </div>
             </div>
             <div class="hero-art">
@@ -235,9 +241,15 @@
                 Add Line Group
             </a>
         </div>
-        <div class="qr-card">
-            <img src="assets/images/line_qr.png" alt="LINE Group QR Code">
-            <span>SCAN TO JOIN</span>
+        <div style="display: flex; gap: 20px;">
+            <div class="qr-card">
+                <img src="assets/images/line_qr.png" alt="LINE Group QR Code">
+                <span>LINE GROUP</span>
+            </div>
+            <div class="qr-card" style="background: white;">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://scicenter.rbru.ac.th/pythonxai2026/" alt="Portal QR Code">
+                <span style="color: var(--secondary);">PORTAL URL</span>
+            </div>
         </div>
     </div>
 </main>
